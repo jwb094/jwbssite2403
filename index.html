@@ -26,32 +26,73 @@
 
   <main>
     <header>
-      <section data-component-hero class="">
-        <nav class="l-container">
+      <section data-component-hero class="p-0 h-100vh md.h-50vh bg-linear-x-to-black">
+        <!-- <nav class="l-container">
           <div class="row">
-            <div class="col-xs-12 col-md-4">LOGO</div>
-            <div class="col-xs-12 col-md-8">
-              <ul class="flex flex-col md.flex-row">
-                <li> </li>
-                <li> </li>
-                <li> </li>
-                <li> </li>
-                <li> </li>
-              </ul>
+            <div class="col-xs-4 col-md-4">LOGO</div>
+            <div class="col-xs-8 col-md-8">
+              <div class="flex flex-row "> 
+                <button>hamburger</button>
+                <ul class="flex flex-col md.flex-row | hidden">
+                  <li>item1 </li>
+                  <li>item2 </li>
+                  <li>item3 </li>
+                  <li> item4</li>
+                  <li> item5</li>
+                </ul>
+              </div>
             </div>
           </div>
-        </nav>
-        <div class="row">
+        </nav> -->
+        <!-- MOBILE:START-->
+        <div class="col-xs-12 py-24">
+          <div class=" mobile-header | flex flex-row [ justify-content-around  relative z-10 ] ">
+            <div class="mr-auto pr-0 | logo" id="">logo</div>
+            <div class="  ml-auto tgl_menu" id="">
+              <buttton class="c-button-tgl" id="c-button-tgl">
+                <div class="bar">Menu
+                  <span class="hamburger-top top">T</span>
+                  <span class="hamburger-middle middle">M</span>
+                  <span class="hamburger-bottom bottom">B</span>
+                </div>
+              </buttton>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12  ">
+          <div class="c-site-nav hidden flex flex-col | bg-orange-100 h-100vh justify-content-center absolute w-100p top-0 left-0 right-0 bottom-0 p-0 align-items-center z-1">
+            <nav class="flex mx-24">
+              <div class="grid grid-cols-2 md.grid-cols-4 gap-48 text-center">
+                <div class="border-2 border-black border-solid p-64">
+                  <svg height="32" viewBox="0 0 21 21" width="32" xmlns="http://www.w3.org/2000/svg" id="IconChangeColor"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 1)"><path d="m.5 9.5 9-9 9 9" id="mainIconPathAttribute"></path><path d="m2.5 7.5v8c0 .5522847.44771525 1 1 1h3c.55228475 0 1-.4477153 1-1v-4c0-.5522847.44771525-1 1-1h2c.5522847 0 1 .4477153 1 1v4c0 .5522847.4477153 1 1 1h3c.5522847 0 1-.4477153 1-1v-8" id="mainIconPathAttribute"></path></g></svg>
+                  Home</div>
+                <div class="border-2 border-black border-solid p-64"><svg height="32" viewBox="0 0 21 21" width="32" xmlns="http://www.w3.org/2000/svg" id="IconChangeColor"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 1)"><path d="m.5 9.5 9-9 9 9" id="mainIconPathAttribute"></path><path d="m2.5 7.5v8c0 .5522847.44771525 1 1 1h3c.55228475 0 1-.4477153 1-1v-4c0-.5522847.44771525-1 1-1h2c.5522847 0 1 .4477153 1 1v4c0 .5522847.4477153 1 1 1h3c.5522847 0 1-.4477153 1-1v-8" id="mainIconPathAttribute"></path></g></svg>About Us</div>
+                <div class="border-2 border-black border-solid p-64"><svg height="32" viewBox="0 0 21 21" width="32" xmlns="http://www.w3.org/2000/svg" id="IconChangeColor"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 1)"><path d="m.5 9.5 9-9 9 9" id="mainIconPathAttribute"></path><path d="m2.5 7.5v8c0 .5522847.44771525 1 1 1h3c.55228475 0 1-.4477153 1-1v-4c0-.5522847.44771525-1 1-1h2c.5522847 0 1 .4477153 1 1v4c0 .5522847.4477153 1 1 1h3c.5522847 0 1-.4477153 1-1v-8" id="mainIconPathAttribute"></path></g></svg>Pricing</div>
+                <div class="border-2 border-black border-solid p-64 "><svg height="32" viewBox="0 0 21 21" width="32" xmlns="http://www.w3.org/2000/svg" id="IconChangeColor"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 1)"><path d="m.5 9.5 9-9 9 9" id="mainIconPathAttribute"></path><path d="m2.5 7.5v8c0 .5522847.44771525 1 1 1h3c.55228475 0 1-.4477153 1-1v-4c0-.5522847.44771525-1 1-1h2c.5522847 0 1 .4477153 1 1v4c0 .5522847.4477153 1 1 1h3c.5522847 0 1-.4477153 1-1v-8" id="mainIconPathAttribute"></path></g></svg>Contact Us</div>
+              </div>
+              <!-- <ul class=" flex flex-col w-100p  gap-24 md.h-auto ">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Pricing</li>
+                <li>Pricing</li>
+              </ul> -->
+            </nav>
+  
+          </div>
+        </div>
+        <!--MOBILE:END-->
+        <div class="row mt-auto">
           <div class="col-xs-12 col-md-12">
             <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, excepturi? Consequuntur?</h1>
           </div>
-          <div class="  ">
-            <buttton class="">
-              Lorem, ipsum dolor.
-            </buttton>
-            <buttton class="">
-              Lorem, ipsum dolor.<img class="w-2-12  mr-16" src="https://placehold.co/32x32" alt="">
-            </buttton>
+          <div class="col-xs-12 col-md-12  ">
+            <div class="flex mx-24">
+              <buttton class=" hidden md.flex">
+                Lorem, ipsum dolor.
+              </buttton>
+              <buttton class="flex"> Lorem, ipsum dolor.<img class="w-2-12  mr-16" src="https://placehold.co/32x32" alt="">
+              </buttton>
+            </div>
 
           </div>
         </div>
