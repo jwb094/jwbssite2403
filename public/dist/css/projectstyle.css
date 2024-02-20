@@ -48240,6 +48240,80 @@ select {
   padding-right: 2rem;
 }
 
+[data-component-hero] {
+  background-image: url("https://loremflickr.com/1020/748");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.mobile-header {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid grey;
+}
+
+.bar {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  bottom: 4px;
+  right: 15px;
+}
+.bar .top {
+  height: 5px;
+  width: 30px;
+  background: #000;
+  border-radius: 50px;
+  position: absolute;
+  transition: 0.5s ease;
+}
+.bar .top_open {
+  transform: rotate(-45deg);
+  width: 30px;
+  transform-origin: right;
+  top: 0px;
+}
+.bar .middle {
+  top: 10px;
+  height: 5px;
+  width: 30px;
+  background: #000;
+  border-radius: 50px;
+  position: absolute;
+  transition: 0.3s ease;
+}
+.bar .middle_open {
+  transform: translateX(20px);
+  opacity: 0;
+}
+.bar .bottom {
+  top: 20px;
+  height: 5px;
+  width: 30px;
+  background: #000;
+  border-radius: 50px;
+  position: absolute;
+  transition: 0.3s ease;
+}
+.bar .bottom_open {
+  transform: rotate(45deg);
+  width: 30px;
+  transform-origin: right;
+  top: 21px;
+}
+
+.c-site-nav {
+  visibility: hidden;
+}
+.c-site-nav .divider {
+  border-bottom: 0.1rem solid grey;
+}
+
+.open-menu {
+  visibility: visible;
+}
+
 [data-component-gallery] .gallery-item:hover .gallery-item_child_overlay {
   opacity: 1;
 }

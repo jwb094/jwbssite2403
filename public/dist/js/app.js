@@ -11,6 +11,27 @@
 
 /***/ }),
 
+/***/ "./public/src/js/nav.js":
+/*!******************************!*\
+  !*** ./public/src/js/nav.js ***!
+  \******************************/
+/***/ (() => {
+
+var btnTgl = document.querySelector("#c-button-tgl");
+var siteNav = document.querySelector(".c-site-nav");
+var bar = document.querySelector(".bar");
+var hamburger_tp = document.querySelector(".top");
+var hamburger_md = document.querySelector(".middle");
+var hamburger_bt = document.querySelector(".bottom");
+btnTgl.addEventListener("click", function (event) {
+  siteNav.classList.toggle("open-menu");
+  hamburger_tp.classList.toggle("top_open");
+  hamburger_md.classList.toggle("middle_open");
+  hamburger_bt.classList.toggle("bottom_open");
+});
+
+/***/ }),
+
 /***/ "./public/src/css/projectstyle.scss":
 /*!******************************************!*\
   !*** ./public/src/css/projectstyle.scss ***!
@@ -162,6 +183,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
 /******/ 	__webpack_require__.O(undefined, ["public/dist/css/projectstyle"], () => (__webpack_require__("./public/src/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["public/dist/css/projectstyle"], () => (__webpack_require__("./public/src/js/nav.js")))
 /******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["public/dist/css/projectstyle"], () => (__webpack_require__("./public/src/css/projectstyle.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	

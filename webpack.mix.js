@@ -5,7 +5,7 @@ mix.sass('public/src/css/projectstyle.scss', 'public/dist/css', {
         './node_modules/uniformcss'
       ]
     }})
-   .js('public/src/js/app.js', 'public/dist/js')
+   .js(['public/src/js/app.js','public/src/js/nav.js'], 'public/dist/js')
    .copyDirectory('public/src/imgs', 'public/dist/imgs')
    .copyDirectory('public/src/assets', 'public/dist/assets');
  

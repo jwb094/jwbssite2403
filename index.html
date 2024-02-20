@@ -26,74 +26,88 @@
 
   <main>
     <header>
-      <section data-component-hero class="p-0 h-100vh md.h-50vh bg-linear-x-to-black">
-        <!-- <nav class="l-container">
-          <div class="row">
-            <div class="col-xs-4 col-md-4">LOGO</div>
-            <div class="col-xs-8 col-md-8">
-              <div class="flex flex-row "> 
-                <button>hamburger</button>
-                <ul class="flex flex-col md.flex-row | hidden">
-                  <li>item1 </li>
-                  <li>item2 </li>
-                  <li>item3 </li>
-                  <li> item4</li>
-                  <li> item5</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav> -->
-        <!-- MOBILE:START-->
+      <section data-component-hero class="p-0 h-100vh md.h-50vh color-white">
+
+        <!-- NAV:START-->
         <div class="col-xs-12 py-24">
           <div class=" mobile-header | flex flex-row [ justify-content-around  relative z-10 ] ">
             <div class="mr-auto pr-0 | logo" id="">logo</div>
             <div class="  ml-auto tgl_menu" id="">
-              <buttton class="c-button-tgl" id="c-button-tgl">
-                <div class="bar">Menu
-                  <span class="hamburger-top top">T</span>
-                  <span class="hamburger-middle middle">M</span>
-                  <span class="hamburger-bottom bottom">B</span>
+              <buttton class="c-button-tgl flex flex-row" id="c-button-tgl">
+                <p class="mr-48">Menu</p>
+                <div class="bar">
+                  <span class="hamburger-top top bg-white"></span>
+                  <span class="hamburger-middle middle bg-white"></span>
+                  <span class="hamburger-bottom bottom bg-white"></span>
                 </div>
               </buttton>
             </div>
           </div>
         </div>
         <div class="col-xs-12  ">
-          <div class="c-site-nav hidden flex flex-col | bg-orange-100 h-100vh justify-content-center absolute w-100p top-0 left-0 right-0 bottom-0 p-0 align-items-center z-1">
-            <nav class="flex mx-24">
-              <div class="grid grid-cols-2 md.grid-cols-4 gap-48 text-center">
-                <div class="border-2 border-black border-solid p-64">
-                  <svg height="32" viewBox="0 0 21 21" width="32" xmlns="http://www.w3.org/2000/svg" id="IconChangeColor"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 1)"><path d="m.5 9.5 9-9 9 9" id="mainIconPathAttribute"></path><path d="m2.5 7.5v8c0 .5522847.44771525 1 1 1h3c.55228475 0 1-.4477153 1-1v-4c0-.5522847.44771525-1 1-1h2c.5522847 0 1 .4477153 1 1v4c0 .5522847.4477153 1 1 1h3c.5522847 0 1-.4477153 1-1v-8" id="mainIconPathAttribute"></path></g></svg>
-                  Home</div>
-                <div class="border-2 border-black border-solid p-64"><svg height="32" viewBox="0 0 21 21" width="32" xmlns="http://www.w3.org/2000/svg" id="IconChangeColor"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 1)"><path d="m.5 9.5 9-9 9 9" id="mainIconPathAttribute"></path><path d="m2.5 7.5v8c0 .5522847.44771525 1 1 1h3c.55228475 0 1-.4477153 1-1v-4c0-.5522847.44771525-1 1-1h2c.5522847 0 1 .4477153 1 1v4c0 .5522847.4477153 1 1 1h3c.5522847 0 1-.4477153 1-1v-8" id="mainIconPathAttribute"></path></g></svg>About Us</div>
-                <div class="border-2 border-black border-solid p-64"><svg height="32" viewBox="0 0 21 21" width="32" xmlns="http://www.w3.org/2000/svg" id="IconChangeColor"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 1)"><path d="m.5 9.5 9-9 9 9" id="mainIconPathAttribute"></path><path d="m2.5 7.5v8c0 .5522847.44771525 1 1 1h3c.55228475 0 1-.4477153 1-1v-4c0-.5522847.44771525-1 1-1h2c.5522847 0 1 .4477153 1 1v4c0 .5522847.4477153 1 1 1h3c.5522847 0 1-.4477153 1-1v-8" id="mainIconPathAttribute"></path></g></svg>Pricing</div>
-                <div class="border-2 border-black border-solid p-64 "><svg height="32" viewBox="0 0 21 21" width="32" xmlns="http://www.w3.org/2000/svg" id="IconChangeColor"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 1)"><path d="m.5 9.5 9-9 9 9" id="mainIconPathAttribute"></path><path d="m2.5 7.5v8c0 .5522847.44771525 1 1 1h3c.55228475 0 1-.4477153 1-1v-4c0-.5522847.44771525-1 1-1h2c.5522847 0 1 .4477153 1 1v4c0 .5522847.4477153 1 1 1h3c.5522847 0 1-.4477153 1-1v-8" id="mainIconPathAttribute"></path></g></svg>Contact Us</div>
+          <div
+            class="c-site-nav  flex flex-col | bg-blue-700 color-white bg-opacity-75 h-100vh justify-content-center absolute w-100p top-0 left-0 right-0 bottom-0 p-0 align-items-center z-1">
+            <nav class="flex mx-24 ">
+              <div class="grid grid-cols-2 md.grid-cols-12 gap-32 text-center">
+                <div class="md.col-3 border-2 border-white border-solid p-12 flex flex-col align-items-center justify-content-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-123"
+                    viewBox="0 0 16 16" id="IconChangeColor">
+                    <path
+                      d="M2.873 11.297V4.142H1.699L0 5.379v1.137l1.64-1.18h.06v5.961h1.174Zm3.213-5.09v-.063c0-.618.44-1.169 1.196-1.169.676 0 1.174.44 1.174 1.106 0 .624-.42 1.101-.807 1.526L4.99 10.553v.744h4.78v-.99H6.643v-.069L8.41 8.252c.65-.724 1.237-1.332 1.237-2.27C9.646 4.849 8.723 4 7.308 4c-1.573 0-2.36 1.064-2.36 2.15v.057h1.138Zm6.559 1.883h.786c.823 0 1.374.481 1.379 1.179.01.707-.55 1.216-1.421 1.21-.77-.005-1.326-.419-1.379-.953h-1.095c.042 1.053.938 1.918 2.464 1.918 1.478 0 2.642-.839 2.62-2.144-.02-1.143-.922-1.651-1.551-1.714v-.063c.535-.09 1.347-.66 1.326-1.678-.026-1.053-.933-1.855-2.359-1.845-1.5.005-2.317.88-2.348 1.898h1.116c.032-.498.498-.944 1.206-.944.703 0 1.206.435 1.206 1.07.005.64-.504 1.106-1.2 1.106h-.75v.96Z"
+                      id="mainIconPathAttribute" fill="#ffffff"></path>
+                  </svg>
+                  Home
+                </div>
+                <div class="md.col-3 border-2 border-white border-solid p-12 flex flex-col align-items-center justify-content-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-123"
+                    viewBox="0 0 16 16" id="IconChangeColor">
+                    <path
+                      d="M2.873 11.297V4.142H1.699L0 5.379v1.137l1.64-1.18h.06v5.961h1.174Zm3.213-5.09v-.063c0-.618.44-1.169 1.196-1.169.676 0 1.174.44 1.174 1.106 0 .624-.42 1.101-.807 1.526L4.99 10.553v.744h4.78v-.99H6.643v-.069L8.41 8.252c.65-.724 1.237-1.332 1.237-2.27C9.646 4.849 8.723 4 7.308 4c-1.573 0-2.36 1.064-2.36 2.15v.057h1.138Zm6.559 1.883h.786c.823 0 1.374.481 1.379 1.179.01.707-.55 1.216-1.421 1.21-.77-.005-1.326-.419-1.379-.953h-1.095c.042 1.053.938 1.918 2.464 1.918 1.478 0 2.642-.839 2.62-2.144-.02-1.143-.922-1.651-1.551-1.714v-.063c.535-.09 1.347-.66 1.326-1.678-.026-1.053-.933-1.855-2.359-1.845-1.5.005-2.317.88-2.348 1.898h1.116c.032-.498.498-.944 1.206-.944.703 0 1.206.435 1.206 1.07.005.64-.504 1.106-1.2 1.106h-.75v.96Z"
+                      id="mainIconPathAttribute" fill="#ffffff"></path>
+                  </svg>
+                  Home
+                </div>
+                <div class="md.col-3 border-2 border-white border-solid p-12 flex flex-col align-items-center justify-content-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-123"
+                    viewBox="0 0 16 16" id="IconChangeColor">
+                    <path
+                      d="M2.873 11.297V4.142H1.699L0 5.379v1.137l1.64-1.18h.06v5.961h1.174Zm3.213-5.09v-.063c0-.618.44-1.169 1.196-1.169.676 0 1.174.44 1.174 1.106 0 .624-.42 1.101-.807 1.526L4.99 10.553v.744h4.78v-.99H6.643v-.069L8.41 8.252c.65-.724 1.237-1.332 1.237-2.27C9.646 4.849 8.723 4 7.308 4c-1.573 0-2.36 1.064-2.36 2.15v.057h1.138Zm6.559 1.883h.786c.823 0 1.374.481 1.379 1.179.01.707-.55 1.216-1.421 1.21-.77-.005-1.326-.419-1.379-.953h-1.095c.042 1.053.938 1.918 2.464 1.918 1.478 0 2.642-.839 2.62-2.144-.02-1.143-.922-1.651-1.551-1.714v-.063c.535-.09 1.347-.66 1.326-1.678-.026-1.053-.933-1.855-2.359-1.845-1.5.005-2.317.88-2.348 1.898h1.116c.032-.498.498-.944 1.206-.944.703 0 1.206.435 1.206 1.07.005.64-.504 1.106-1.2 1.106h-.75v.96Z"
+                      id="mainIconPathAttribute" fill="#ffffff"></path>
+                  </svg>
+                  Home
+                </div>
+                <div class="md.col-3 border-2 border-white border-solid p-12 flex flex-col align-items-center justify-content-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-123"
+                    viewBox="0 0 16 16" id="IconChangeColor">
+                    <path
+                      d="M2.873 11.297V4.142H1.699L0 5.379v1.137l1.64-1.18h.06v5.961h1.174Zm3.213-5.09v-.063c0-.618.44-1.169 1.196-1.169.676 0 1.174.44 1.174 1.106 0 .624-.42 1.101-.807 1.526L4.99 10.553v.744h4.78v-.99H6.643v-.069L8.41 8.252c.65-.724 1.237-1.332 1.237-2.27C9.646 4.849 8.723 4 7.308 4c-1.573 0-2.36 1.064-2.36 2.15v.057h1.138Zm6.559 1.883h.786c.823 0 1.374.481 1.379 1.179.01.707-.55 1.216-1.421 1.21-.77-.005-1.326-.419-1.379-.953h-1.095c.042 1.053.938 1.918 2.464 1.918 1.478 0 2.642-.839 2.62-2.144-.02-1.143-.922-1.651-1.551-1.714v-.063c.535-.09 1.347-.66 1.326-1.678-.026-1.053-.933-1.855-2.359-1.845-1.5.005-2.317.88-2.348 1.898h1.116c.032-.498.498-.944 1.206-.944.703 0 1.206.435 1.206 1.07.005.64-.504 1.106-1.2 1.106h-.75v.96Z"
+                      id="mainIconPathAttribute" fill="#ffffff"></path>
+                  </svg>
+                  Home
+                </div>
               </div>
-              <!-- <ul class=" flex flex-col w-100p  gap-24 md.h-auto ">
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Pricing</li>
-                <li>Pricing</li>
-              </ul> -->
+
             </nav>
-  
+
           </div>
         </div>
-        <!--MOBILE:END-->
-        <div class="row mt-auto">
-          <div class="col-xs-12 col-md-12">
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, excepturi? Consequuntur?</h1>
-          </div>
-          <div class="col-xs-12 col-md-12  ">
-            <div class="flex mx-24">
-              <buttton class=" hidden md.flex">
-                Lorem, ipsum dolor.
-              </buttton>
-              <buttton class="flex"> Lorem, ipsum dolor.<img class="w-2-12  mr-16" src="https://placehold.co/32x32" alt="">
-              </buttton>
-            </div>
+        <!--NAV:END-->
+        <div class="row mt-auto mx-auto md.mx-128">
+          <!-- <div class="md.flex flex-col align-items-center mx-auto"> -->
 
+            <div class="col-xs-12 col-md-12">
+              <h1 class="text-4xl pt-96 pb-48">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, excepturi? Consequuntur?</h1>
+            </div>
+            <div class="col-xs-12 col-md-12  ">
+              <div class="flex mx-24 gap-24 md.justify-content-start">
+                <buttton class="flex gap-12 border-2 border-white border-solid align-items-center p-12 hidden md.flex">
+                  Lorem, ipsum dolor.
+                </buttton>
+                <buttton class="flex gap-12 border-2 border-white border-solid align-items-center p-12"> Lorem, ipsum .<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" id="IconChangeColor" height="32" width="32"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" id="mainIconPathAttribute" fill="#ffffff"></path></svg>
+                </buttton>
+              </div>
+  
+            <!-- </div> -->
           </div>
         </div>
       </section>
@@ -103,9 +117,18 @@
         <div class="row">
           <div class="col-xs-12 col-md-12 |">
             <div class="video-button-bloc | w-100p  | flex justify-content-center text-center">
-              <button class="flex justify-content-center align-items-center gap-12 text-center"> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16" id="IconChangeColor"> <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" id="mainIconPathAttribute"></path> <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" id="mainIconPathAttribute"></path> </svg>  watch the video</button>
+              <button class="flex justify-content-center align-items-center gap-12 text-center"> <svg
+                  xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                  class="bi bi-play-circle" viewBox="0 0 16 16" id="IconChangeColor">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                    id="mainIconPathAttribute"></path>
+                  <path
+                    d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"
+                    id="mainIconPathAttribute"></path>
+                </svg> watch the video</button>
             </div>
-            <div id="modal-video_bloc" class="modal modal-video_bloc  hidden border-2 border-black border-solid | absolute top-0 right-0 left-0 bottom-0 m-0 z-2">
+            <div id="modal-video_bloc"
+              class="modal modal-video_bloc  hidden border-2 border-black border-solid | absolute top-0 right-0 left-0 bottom-0 m-0 z-2">
               <span class="text-right close">&times;</span>
               <div class="col-xs-12 col-md-12">
                 Video
@@ -119,8 +142,11 @@
       <div class="row">
         <div class="col-xs-12 col-md-6 |[ p-0 ] ">
           <div class="feature-intro-bg | relative">
-            <div class="features-intro-overlay w-100p h-384 md-h-100p bg-linear-x-to-black-- bg-warm-gray-200 bg-opacity-45"></div>
-            <div class="features-intro-img | w-100p h-100p flex justify-content-center absolute top-0 bottom-0 left-0 right-0   ">
+            <div
+              class="features-intro-overlay w-100p h-384 md-h-100p bg-linear-x-to-black-- bg-warm-gray-200 bg-opacity-45">
+            </div>
+            <div
+              class="features-intro-img | w-100p h-100p flex justify-content-center absolute top-0 bottom-0 left-0 right-0   ">
               <img class="flex justify-content-center | w-3-12" src="https://placehold.co/32x32" alt="">
             </div>
           </div>
@@ -130,7 +156,8 @@
             <div class="feature-slider-component | [ pt-20 pr-48 pb-20 pl-48 ] ">
               <div class="feature-slide-component__item">
                 <h5>Lorem ipsum dolor sit amet consectetur.</h5>
-                <p class="my-14">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sint velit fugiat quis quibusdam, non
+                <p class="my-14">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sint velit fugiat quis
+                  quibusdam, non
                   accusantium ex. Quasi, nulla pariatur! Laboriosam minima eum perspiciatis laudantium velit mollitia,
                   iusto a quos!</p>
                 <a class="my-14" href="#">Lorem ipsum dolor sit amet consectetur.</a>
@@ -162,27 +189,30 @@
               <img class="feature-list__item__icon mx-auto w-2-12 md.w-auto" src="https://placehold.co/32x32" alt="">
               <div class="feature-list__item_content">
                 <h1 class="mb-12">title</h5>
-                <p class="mb-24">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui laboriosam consectetur, deserunt sit
-                  debitis magnam.</p>
-                <a href="">read more</a>
+                  <p class="mb-24">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui laboriosam consectetur,
+                    deserunt sit
+                    debitis magnam.</p>
+                  <a href="">read more</a>
               </div>
             </div>
             <div class="feature-list__item | flex flex-col md.flex-col text-center">
               <img class="feature-list__item__icon mx-auto w-2-12 md.w-auto" src="https://placehold.co/32x32" alt="">
               <div class="feature-list__item_content">
                 <h1 class="mb-12">title</h5>
-                <p class="mb-24">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui laboriosam consectetur, deserunt sit
-                  debitis magnam.</p>
-                <a href="">read more</a>
+                  <p class="mb-24">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui laboriosam consectetur,
+                    deserunt sit
+                    debitis magnam.</p>
+                  <a href="">read more</a>
               </div>
             </div>
             <div class="feature-list__item | flex flex-col md.flex-col text-center">
               <img class="feature-list__item__icon mx-auto w-2-12 md.w-auto" src="https://placehold.co/32x32" alt="">
               <div class="feature-list__item_content">
                 <h1 class="mb-12">title</h5>
-                <p class="mb-24">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui laboriosam consectetur, deserunt sit
-                  debitis magnam.</p>
-                <a href="">read more</a>
+                  <p class="mb-24">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui laboriosam consectetur,
+                    deserunt sit
+                    debitis magnam.</p>
+                  <a href="">read more</a>
               </div>
             </div>
           </div>
@@ -194,29 +224,32 @@
         <div class="row | md.flex-row-reverse">
           <div class="col-xs-12 col-md-6">
             <h1 class="mb-24">Lorem ipsum dolor sit amet.</h1>
-            <p class="mb-24">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptates voluptas perferendis
+            <p class="mb-24">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptates voluptas
+              perferendis
               officiis, corrupti</p>
             <div>
               <blockquote class="flex flex-row | gap-24 mb-24 mr-32 md.mr-0">
                 <div>Pic/Logo</div>
                 <div>
-                  <cite>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re
+                  <cite>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and
+                    you’re
                     pierced
-                  —Aldous Huxley, Brave New World</cite>
+                    —Aldous Huxley, Brave New World</cite>
                 </div>
               </blockquote>
-              <button class="border-2 border-black border-solid  [ w-4-12 ] [ py-12 px-32 ]">CTA <span>icon</span> </button>
+              <button class="border-2 border-black border-solid  [ w-4-12 ] [ py-12 px-32 ]">CTA <span>icon</span>
+              </button>
             </div>
           </div>
           <div class="hidden md.flex col-md-6 | justify-content-center">
             <img src="https://loremflickr.com/320/240" />
-        
+
           </div>
           <div class="slider">
-              <div></div>
-              <div></div>
-              <div></div>
-          </div>  
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
       </div>
@@ -227,10 +260,12 @@
           <div class="l-container">
             <div class="row | [ px-56 ] ">
               <h5 class="mb-24">Lorem ipsum dolor sit amet.</h5>
-              <p class="mb-24">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quaerat rem tenetur consequuntur ex
+              <p class="mb-24">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quaerat rem tenetur
+                consequuntur ex
                 alias, perferendis repellat neque pariatur odit id atque, dignissimos .</p>
-                <p class="mb-24">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quaerat rem tenetur consequuntur ex
-                  alias, perferendis repellat neque pariatur odit id atque, digniss.</p>
+              <p class="mb-24">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quaerat rem tenetur
+                consequuntur ex
+                alias, perferendis repellat neque pariatur odit id atque, digniss.</p>
               <a href="#">Lorem, ipsum dolor!<span>Icon</span></a>
             </div>
           </div>
@@ -239,68 +274,124 @@
     </section>
     <section data-component-gallery class=" [ p-0 ]">
       <!-- <div class="l-container"> -->
-       <!-- <div class="row"> -->
+      <!-- <div class="row"> -->
       <div class="grid grid-cols-1 md.grid-cols-4 | gallery-bloc">
         <div class="gallery-item relative">
           <img class="" src="https://placehold.co/960x720" alt="">
-          <div class=" gallery-item_child_overlay | flex flex-col  | w-100p h-100p flex flex-col justify-content-center absolute top-0 bottom-0 left-0 right-0 color-white">
-            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="mx-auto bi bi-alarm" viewBox="0 0 16 16" id="IconChangeColor"> <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z" id="mainIconPathAttribute" fill="#ffffff"></path> <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z" id="mainIconPathAttribute" fill="#ffffff"></path> </svg>
+          <div
+            class=" gallery-item_child_overlay | flex flex-col  | w-100p h-100p flex flex-col justify-content-center absolute top-0 bottom-0 left-0 right-0 color-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+              class="mx-auto bi bi-alarm" viewBox="0 0 16 16" id="IconChangeColor">
+              <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"
+                id="mainIconPathAttribute" fill="#ffffff"></path>
+              <path
+                d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"
+                id="mainIconPathAttribute" fill="#ffffff"></path>
+            </svg>
             <span class="mt-18 mx-auto color-white">Text</span>
           </div>
         </div>
         <div class="gallery-item relative">
           <img class="" src="https://placehold.co/960x720" alt="">
-          <div class=" gallery-item_child_overlay | flex flex-col  | w-100p h-100p flex flex-col justify-content-center absolute top-0 bottom-0 left-0 right-0 color-white">
-            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="mx-auto bi bi-alarm" viewBox="0 0 16 16" id="IconChangeColor"> <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z" id="mainIconPathAttribute" fill="#ffffff"></path> <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z" id="mainIconPathAttribute" fill="#ffffff"></path> </svg>
+          <div
+            class=" gallery-item_child_overlay | flex flex-col  | w-100p h-100p flex flex-col justify-content-center absolute top-0 bottom-0 left-0 right-0 color-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+              class="mx-auto bi bi-alarm" viewBox="0 0 16 16" id="IconChangeColor">
+              <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"
+                id="mainIconPathAttribute" fill="#ffffff"></path>
+              <path
+                d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"
+                id="mainIconPathAttribute" fill="#ffffff"></path>
+            </svg>
             <span class="mt-18 mx-auto color-white">Text</span>
           </div>
         </div>
         <div class="gallery-item relative">
           <img class="" src="https://placehold.co/960x720" alt="">
-          <div class=" gallery-item_child_overlay | flex flex-col  | w-100p h-100p flex flex-col justify-content-center absolute top-0 bottom-0 left-0 right-0 color-white">
-            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="mx-auto bi bi-alarm" viewBox="0 0 16 16" id="IconChangeColor"> <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z" id="mainIconPathAttribute" fill="#ffffff"></path> <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z" id="mainIconPathAttribute" fill="#ffffff"></path> </svg>
+          <div
+            class=" gallery-item_child_overlay | flex flex-col  | w-100p h-100p flex flex-col justify-content-center absolute top-0 bottom-0 left-0 right-0 color-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+              class="mx-auto bi bi-alarm" viewBox="0 0 16 16" id="IconChangeColor">
+              <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"
+                id="mainIconPathAttribute" fill="#ffffff"></path>
+              <path
+                d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"
+                id="mainIconPathAttribute" fill="#ffffff"></path>
+            </svg>
             <span class="mt-18 mx-auto color-white">Text</span>
           </div>
         </div>
         <div class="gallery-item relative">
           <img class="" src="https://placehold.co/960x720" alt="">
-          <div class=" gallery-item_child_overlay | flex flex-col  | w-100p h-100p flex flex-col justify-content-center absolute top-0 bottom-0 left-0 right-0 color-white">
-            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="w-3-12 mx-auto bi bi-123" viewBox="0 0 16 16" id="IconChangeColor"> <path d="M2.873 11.297V4.142H1.699L0 5.379v1.137l1.64-1.18h.06v5.961h1.174Zm3.213-5.09v-.063c0-.618.44-1.169 1.196-1.169.676 0 1.174.44 1.174 1.106 0 .624-.42 1.101-.807 1.526L4.99 10.553v.744h4.78v-.99H6.643v-.069L8.41 8.252c.65-.724 1.237-1.332 1.237-2.27C9.646 4.849 8.723 4 7.308 4c-1.573 0-2.36 1.064-2.36 2.15v.057h1.138Zm6.559 1.883h.786c.823 0 1.374.481 1.379 1.179.01.707-.55 1.216-1.421 1.21-.77-.005-1.326-.419-1.379-.953h-1.095c.042 1.053.938 1.918 2.464 1.918 1.478 0 2.642-.839 2.62-2.144-.02-1.143-.922-1.651-1.551-1.714v-.063c.535-.09 1.347-.66 1.326-1.678-.026-1.053-.933-1.855-2.359-1.845-1.5.005-2.317.88-2.348 1.898h1.116c.032-.498.498-.944 1.206-.944.703 0 1.206.435 1.206 1.07.005.64-.504 1.106-1.2 1.106h-.75v.96Z" id="mainIconPathAttribute" fill="#ffffff"></path> </svg>
+          <div
+            class=" gallery-item_child_overlay | flex flex-col  | w-100p h-100p flex flex-col justify-content-center absolute top-0 bottom-0 left-0 right-0 color-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+              class="w-3-12 mx-auto bi bi-123" viewBox="0 0 16 16" id="IconChangeColor">
+              <path
+                d="M2.873 11.297V4.142H1.699L0 5.379v1.137l1.64-1.18h.06v5.961h1.174Zm3.213-5.09v-.063c0-.618.44-1.169 1.196-1.169.676 0 1.174.44 1.174 1.106 0 .624-.42 1.101-.807 1.526L4.99 10.553v.744h4.78v-.99H6.643v-.069L8.41 8.252c.65-.724 1.237-1.332 1.237-2.27C9.646 4.849 8.723 4 7.308 4c-1.573 0-2.36 1.064-2.36 2.15v.057h1.138Zm6.559 1.883h.786c.823 0 1.374.481 1.379 1.179.01.707-.55 1.216-1.421 1.21-.77-.005-1.326-.419-1.379-.953h-1.095c.042 1.053.938 1.918 2.464 1.918 1.478 0 2.642-.839 2.62-2.144-.02-1.143-.922-1.651-1.551-1.714v-.063c.535-.09 1.347-.66 1.326-1.678-.026-1.053-.933-1.855-2.359-1.845-1.5.005-2.317.88-2.348 1.898h1.116c.032-.498.498-.944 1.206-.944.703 0 1.206.435 1.206 1.07.005.64-.504 1.106-1.2 1.106h-.75v.96Z"
+                id="mainIconPathAttribute" fill="#ffffff"></path>
+            </svg>
             <span class="mt-18 mx-auto color-white">Text</span>
           </div>
         </div>
         <div class="gallery-item relative">
           <img class="" src="https://placehold.co/960x720" alt="">
-          <div class=" gallery-item_child_overlay | flex flex-col  | w-100p h-100p flex flex-col justify-content-center absolute top-0 bottom-0 left-0 right-0 color-white">
+          <div
+            class=" gallery-item_child_overlay | flex flex-col  | w-100p h-100p flex flex-col justify-content-center absolute top-0 bottom-0 left-0 right-0 color-white">
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="mx-auto bi bi-activity" viewBox="0 0 16 16" id="IconChangeColor"> <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z" id="mainIconPathAttribute" fill="#ffffff"></path> </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+              class="mx-auto bi bi-activity" viewBox="0 0 16 16" id="IconChangeColor">
+              <path fill-rule="evenodd"
+                d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z"
+                id="mainIconPathAttribute" fill="#ffffff"></path>
+            </svg>
             <span class="mt-18 mx-auto color-white">Text</span>
           </div>
         </div>
         <div class="gallery-item relative">
           <img class="" src="https://placehold.co/960x720" alt="">
-          <div class=" gallery-item_child_overlay | flex flex-col  | w-100p h-100p flex flex-col justify-content-center absolute top-0 bottom-0 left-0 right-0 color-white">
-            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="mx-auto bi bi-alarm" viewBox="0 0 16 16" id="IconChangeColor"> <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z" id="mainIconPathAttribute" fill="#ffffff"></path> <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z" id="mainIconPathAttribute" fill="#ffffff"></path> </svg>
+          <div
+            class=" gallery-item_child_overlay | flex flex-col  | w-100p h-100p flex flex-col justify-content-center absolute top-0 bottom-0 left-0 right-0 color-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+              class="mx-auto bi bi-alarm" viewBox="0 0 16 16" id="IconChangeColor">
+              <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"
+                id="mainIconPathAttribute" fill="#ffffff"></path>
+              <path
+                d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"
+                id="mainIconPathAttribute" fill="#ffffff"></path>
+            </svg>
             <span class="mt-18 mx-auto color-white">Text</span>
           </div>
         </div>
         <div class="gallery-item relative">
           <img class="" src="https://placehold.co/960x720" alt="">
-          <div class=" gallery-item_child_overlay | flex flex-col  | w-100p h-100p flex flex-col justify-content-center absolute top-0 bottom-0 left-0 right-0 color-white">
-            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="w-3-12 mx-auto bi bi-123" viewBox="0 0 16 16" id="IconChangeColor"> <path d="M2.873 11.297V4.142H1.699L0 5.379v1.137l1.64-1.18h.06v5.961h1.174Zm3.213-5.09v-.063c0-.618.44-1.169 1.196-1.169.676 0 1.174.44 1.174 1.106 0 .624-.42 1.101-.807 1.526L4.99 10.553v.744h4.78v-.99H6.643v-.069L8.41 8.252c.65-.724 1.237-1.332 1.237-2.27C9.646 4.849 8.723 4 7.308 4c-1.573 0-2.36 1.064-2.36 2.15v.057h1.138Zm6.559 1.883h.786c.823 0 1.374.481 1.379 1.179.01.707-.55 1.216-1.421 1.21-.77-.005-1.326-.419-1.379-.953h-1.095c.042 1.053.938 1.918 2.464 1.918 1.478 0 2.642-.839 2.62-2.144-.02-1.143-.922-1.651-1.551-1.714v-.063c.535-.09 1.347-.66 1.326-1.678-.026-1.053-.933-1.855-2.359-1.845-1.5.005-2.317.88-2.348 1.898h1.116c.032-.498.498-.944 1.206-.944.703 0 1.206.435 1.206 1.07.005.64-.504 1.106-1.2 1.106h-.75v.96Z" id="mainIconPathAttribute" fill="#ffffff"></path> </svg>
+          <div
+            class=" gallery-item_child_overlay | flex flex-col  | w-100p h-100p flex flex-col justify-content-center absolute top-0 bottom-0 left-0 right-0 color-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+              class="w-3-12 mx-auto bi bi-123" viewBox="0 0 16 16" id="IconChangeColor">
+              <path
+                d="M2.873 11.297V4.142H1.699L0 5.379v1.137l1.64-1.18h.06v5.961h1.174Zm3.213-5.09v-.063c0-.618.44-1.169 1.196-1.169.676 0 1.174.44 1.174 1.106 0 .624-.42 1.101-.807 1.526L4.99 10.553v.744h4.78v-.99H6.643v-.069L8.41 8.252c.65-.724 1.237-1.332 1.237-2.27C9.646 4.849 8.723 4 7.308 4c-1.573 0-2.36 1.064-2.36 2.15v.057h1.138Zm6.559 1.883h.786c.823 0 1.374.481 1.379 1.179.01.707-.55 1.216-1.421 1.21-.77-.005-1.326-.419-1.379-.953h-1.095c.042 1.053.938 1.918 2.464 1.918 1.478 0 2.642-.839 2.62-2.144-.02-1.143-.922-1.651-1.551-1.714v-.063c.535-.09 1.347-.66 1.326-1.678-.026-1.053-.933-1.855-2.359-1.845-1.5.005-2.317.88-2.348 1.898h1.116c.032-.498.498-.944 1.206-.944.703 0 1.206.435 1.206 1.07.005.64-.504 1.106-1.2 1.106h-.75v.96Z"
+                id="mainIconPathAttribute" fill="#ffffff"></path>
+            </svg>
             <span class="mt-18 mx-auto color-white">Text</span>
           </div>
         </div>
         <div class="gallery-item relative">
           <img class="" src="https://placehold.co/960x720" alt="">
-          <div class=" gallery-item_child_overlay | flex flex-col  | w-100p h-100p flex flex-col justify-content-center absolute top-0 bottom-0 left-0 right-0 color-white">
-            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="w-3-12 mx-auto bi bi-123" viewBox="0 0 16 16" id="IconChangeColor"> <path d="M2.873 11.297V4.142H1.699L0 5.379v1.137l1.64-1.18h.06v5.961h1.174Zm3.213-5.09v-.063c0-.618.44-1.169 1.196-1.169.676 0 1.174.44 1.174 1.106 0 .624-.42 1.101-.807 1.526L4.99 10.553v.744h4.78v-.99H6.643v-.069L8.41 8.252c.65-.724 1.237-1.332 1.237-2.27C9.646 4.849 8.723 4 7.308 4c-1.573 0-2.36 1.064-2.36 2.15v.057h1.138Zm6.559 1.883h.786c.823 0 1.374.481 1.379 1.179.01.707-.55 1.216-1.421 1.21-.77-.005-1.326-.419-1.379-.953h-1.095c.042 1.053.938 1.918 2.464 1.918 1.478 0 2.642-.839 2.62-2.144-.02-1.143-.922-1.651-1.551-1.714v-.063c.535-.09 1.347-.66 1.326-1.678-.026-1.053-.933-1.855-2.359-1.845-1.5.005-2.317.88-2.348 1.898h1.116c.032-.498.498-.944 1.206-.944.703 0 1.206.435 1.206 1.07.005.64-.504 1.106-1.2 1.106h-.75v.96Z" id="mainIconPathAttribute" fill="#ffffff"></path> </svg>
+          <div
+            class=" gallery-item_child_overlay | flex flex-col  | w-100p h-100p flex flex-col justify-content-center absolute top-0 bottom-0 left-0 right-0 color-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
+              class="w-3-12 mx-auto bi bi-123" viewBox="0 0 16 16" id="IconChangeColor">
+              <path
+                d="M2.873 11.297V4.142H1.699L0 5.379v1.137l1.64-1.18h.06v5.961h1.174Zm3.213-5.09v-.063c0-.618.44-1.169 1.196-1.169.676 0 1.174.44 1.174 1.106 0 .624-.42 1.101-.807 1.526L4.99 10.553v.744h4.78v-.99H6.643v-.069L8.41 8.252c.65-.724 1.237-1.332 1.237-2.27C9.646 4.849 8.723 4 7.308 4c-1.573 0-2.36 1.064-2.36 2.15v.057h1.138Zm6.559 1.883h.786c.823 0 1.374.481 1.379 1.179.01.707-.55 1.216-1.421 1.21-.77-.005-1.326-.419-1.379-.953h-1.095c.042 1.053.938 1.918 2.464 1.918 1.478 0 2.642-.839 2.62-2.144-.02-1.143-.922-1.651-1.551-1.714v-.063c.535-.09 1.347-.66 1.326-1.678-.026-1.053-.933-1.855-2.359-1.845-1.5.005-2.317.88-2.348 1.898h1.116c.032-.498.498-.944 1.206-.944.703 0 1.206.435 1.206 1.07.005.64-.504 1.106-1.2 1.106h-.75v.96Z"
+                id="mainIconPathAttribute" fill="#ffffff"></path>
+            </svg>
             <span class="mt-18 mx-auto color-white">Text</span>
           </div>
         </div>
       </div>
       <!-- </div> -->
-       <!-- </div>  -->
+      <!-- </div>  -->
       <!-- </div> -->
     </section>
     <section data-component-download class="download_bloc py-128 bg-blue-700 color-white">
@@ -309,7 +400,14 @@
           <div class="col-xs-12 col-md-12 | text-center ">
             <div class="download-bloc__header flex flex-col justify-content-center px-48">
               <h3 class=" [ mb-24 ] |[ text-4xl md.text-6xl ]">Lorem, ipsum.</h3>
-              <button class="download |  radius-sm [ py-12 px-32 ] flex text-center align-items-center justify-content-center gap-18">Download <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="IconChangeColor" height="32" width="32"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" id="mainIconPathAttribute"></path></svg> </button>
+              <button
+                class="download |  radius-sm [ py-12 px-32 ] flex text-center align-items-center justify-content-center gap-18">Download
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="IconChangeColor" height="32"
+                  width="32"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"
+                    id="mainIconPathAttribute"></path>
+                </svg> </button>
             </div>
           </div>
         </div>
@@ -323,7 +421,7 @@
       <div class="row | flex-col md.flex-row gap-24 md.gap-0">
         <div class="col-xs-12 col-md-4 | ">
           <h3 class="mb-12  color-blue-700 capitalise">Meritingbar</h3>
-          <p class="color-gray-400">Lorem ipsum dolor, sit amet   <a class="italic color-blue-700 " href="#">elit.</a></p>
+          <p class="color-gray-400">Lorem ipsum dolor, sit amet <a class="italic color-blue-700 " href="#">elit.</a></p>
         </div>
         <div class="col-xs-12 col-md-8  my-auto ">
           <ul class="flex flex-col gap-32 md.flex-row justify-content-evenly ">
@@ -337,7 +435,7 @@
       </div>
     </div>
   </footer>
-  <script src="public/dist/js/app.js"></script>
+  <script async src="public/dist/js/app.js"></script>
 </body>
 
 </html>
