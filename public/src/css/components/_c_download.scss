@@ -1,0 +1,16 @@
+[data-component-download]{
+
+    button.download{
+        border: 2px solid white;
+        svg{
+            fill: #fff;
+        }
+        &:hover{
+            border:2px solid aqua;
+            color: aqua;
+            svg{
+                fill: aqua;
+            }
+        }
+    }
+}

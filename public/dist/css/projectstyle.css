@@ -48248,3 +48248,17 @@ select {
   background: rgba(0, 55, 133, 0.8);
   z-index: 1;
 }
+
+[data-component-download] button.download {
+  border: 2px solid white;
+}
+[data-component-download] button.download svg {
+  fill: #fff;
+}
+[data-component-download] button.download:hover {
+  border: 2px solid aqua;
+  color: aqua;
+}
+[data-component-download] button.download:hover svg {
+  fill: aqua;
+}
