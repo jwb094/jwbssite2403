@@ -32,6 +32,26 @@ btnTgl.addEventListener("click", function (event) {
 
 /***/ }),
 
+/***/ "./public/src/js/video_modal.js":
+/*!**************************************!*\
+  !*** ./public/src/js/video_modal.js ***!
+  \**************************************/
+/***/ (() => {
+
+var modalTriggerBtn = document.getElementById("modalTriggerBtn");
+var modalElem = document.getElementById("modal-video_bloc");
+var modalCloseBtn = document.getElementById("modalCloseBtn");
+modalTriggerBtn.onclick = function () {
+  //alert("hi");
+  modalElem.classList.remove("hidden");
+};
+modalCloseBtn.onclick = function () {
+  //alert("close");
+  modalElem.classList.add("hidden");
+};
+
+/***/ }),
+
 /***/ "./public/src/css/projectstyle.scss":
 /*!******************************************!*\
   !*** ./public/src/css/projectstyle.scss ***!
@@ -184,6 +204,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
 /******/ 	__webpack_require__.O(undefined, ["public/dist/css/projectstyle"], () => (__webpack_require__("./public/src/js/app.js")))
 /******/ 	__webpack_require__.O(undefined, ["public/dist/css/projectstyle"], () => (__webpack_require__("./public/src/js/nav.js")))
+/******/ 	__webpack_require__.O(undefined, ["public/dist/css/projectstyle"], () => (__webpack_require__("./public/src/js/video_modal.js")))
 /******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["public/dist/css/projectstyle"], () => (__webpack_require__("./public/src/css/projectstyle.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	

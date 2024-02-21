@@ -120,7 +120,7 @@
         <div class="row">
           <div class="col-xs-12 col-md-12 |">
             <div class="video-button-bloc | w-100p  | flex justify-content-center text-center">
-              <button class="flex justify-content-center align-items-center gap-12 text-center"> <svg
+              <button class="flex justify-content-center align-items-center gap-12 text-center" id="modalTriggerBtn"> <svg
                   xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
                   class="bi bi-play-circle" viewBox="0 0 16 16" id="IconChangeColor">
                   <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
@@ -130,11 +130,15 @@
                     id="mainIconPathAttribute"></path>
                 </svg> watch the video</button>
             </div>
-            <div id="modal-video_bloc"
-              class="modal modal-video_bloc  hidden border-2 border-black border-solid | absolute top-0 right-0 left-0 bottom-0 m-0 z-2">
-              <span class="text-right close">&times;</span>
-              <div class="col-xs-12 col-md-12">
-                Video
+            <div id="modal-video_bloc"class="modal modal-video_bloc  hidden border-2 border-black border-solid bg-blue-700 bg-opacity-75 | absolute top-40 right-40 left-40 bottom-40 m-0 z-2">
+              <div class="modal-video">
+                <div class="col-xs-12 text-right">
+
+                  <span id="modalCloseBtn" class="text-4xl flex justify-content-end close">&times;</span>
+                </div>
+                <div class="col-xs-12 col-md-12">
+                  Video
+                </div>
               </div>
             </div>
           </div>
