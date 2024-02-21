@@ -5,21 +5,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>jwbssite2403</title>
-  <link rel="stylesheet" href="public/dist/css/projectstyle.css">
   <meta name="description" content="">
-
+  
   <meta property="og:title" content="">
   <meta property="og:type" content="">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
   <meta property="og:image:alt" content="">
-
+  
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.png">
-
+  
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+ 
+  <link rel="stylesheet" href="public/dist/css/projectstyle.css">
 </head>
 
 <body>
@@ -219,17 +222,19 @@
         </div>
       </div>
     </section>
-    <section data-component-showcase class="py-96">
+    <section data-component-showcase class="py-96 bg-blue-700 color-white  ">
       <div class="l-container">
         <div class="row | md.flex-row-reverse">
           <div class="col-xs-12 col-md-6">
-            <h1 class="mb-24">Lorem ipsum dolor sit amet.</h1>
-            <p class="mb-24">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptates voluptas
+            <h1 class="text-xl mb-24">Lorem ipsum dolor sit amet.</h1>
+            <p class="leading-130 mb-24">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptates voluptas
+              perferendis
+              officiis, corrupti.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptates voluptas
               perferendis
               officiis, corrupti</p>
             <div>
-              <blockquote class="flex flex-row | gap-24 mb-24 mr-32 md.mr-0">
-                <div>Pic/Logo</div>
+              <blockquote class="flex flex-row | gap-24 mb-24 mr-32 md.mr-0 md.mt-40">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16" id="IconChangeColor"> <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707zm0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707zm-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707z" id="mainIconPathAttribute" fill="#ffffff"></path> </svg>
                 <div>
                   <cite>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and
                     you’re
@@ -237,19 +242,26 @@
                     —Aldous Huxley, Brave New World</cite>
                 </div>
               </blockquote>
-              <button class="border-2 border-black border-solid  [ w-4-12 ] [ py-12 px-32 ]">CTA <span>icon</span>
+              <button class="border-2 border-white border-solid  [ w-4-12 ] [ py-12 px-56 ] radius-sm flex align-items-center gap-24 ">CTA   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="IconChangeColor" height="16"  width="16"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"
+                  id="mainIconPathAttribute" fill="#ffffff"></path>
+              </svg>
               </button>
             </div>
           </div>
-          <div class="hidden md.flex col-md-6 | justify-content-center">
-            <img src="https://loremflickr.com/320/240" />
+          <div class="hidden md.flex col-md-4 | justify-content-center">
+           <div class="showcase_device_bg">
 
+             <div class="main-carousel w-9-12 ">
+               <div class="carousel-cell  w-9-12 "> <img class="w-100p" src="https://loremflickr.com/520/240" />1</div>
+               <div class="carousel-cell  w-9-12 "> <img class="w-100p" src="https://loremflickr.com/520/340" />2</div>
+               <div class="carousel-cell  w-9-12 "> <img class="w-100p" src="https://loremflickr.com/520/240" />3</div>
+          
+             </div>
+           </div>
           </div>
-          <div class="slider">
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
+      
         </div>
       </div>
       </div>
@@ -434,6 +446,18 @@
     </div>
   </footer>
   <script async src="public/dist/js/app.js"></script>
+<!--JQuery-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js" integrity="sha512-nhY06wKras39lb9lRO76J4397CH1XpRSLfLJSftTeo3+q2vP7PaebILH9TqH+GRpnOhfAGjuYMVmVTOZJ+682w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <!-- JavaScript -->
+ <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+ <script type="text/javascript">
+   var elem = document.querySelector('.main-carousel');
+ var flkty = new Flickity( elem, {
+   // options
+   cellAlign: 'left',
+   contain: true
+ });
+ </script>
 </body>
 
 </html>

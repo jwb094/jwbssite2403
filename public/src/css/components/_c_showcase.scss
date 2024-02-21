@@ -1,0 +1,30 @@
+[data-component-showcase]{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)),url(https://loremflickr.com/g/1000/500/paris ) no-repeat fixed bottom / cover ;
+    // height:100vh;
+    background-size: cover;
+
+
+
+
+    // .showcase_device_bg{
+    //     background-image: url(https://i.pinimg.com/736x/40/85/04/4085040e396fa3ff2917b7e5203e3fc0.jpg);
+    // }
+
+    .main-carousel{
+        .flickity-viewport {
+            height: 220px!important;
+            touch-action: pan-y;
+            width: 600px!important;
+        }
+        .carousel-cell {
+            width: 100%; /* full width */
+            height: 200px;
+            background: #222;
+            /* center images in cells with flexbox */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          
+    }
+}
