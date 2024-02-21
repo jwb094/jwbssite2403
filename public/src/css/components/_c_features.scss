@@ -1,0 +1,31 @@
+
+
+[data-component-features-intro]{
+.feature-intro-bg{
+    background-image: url(https://loremflickr.com/g/1000/500/paris);
+}
+
+    .feature-slider-component{
+        .flickity-viewport {
+            width: 575px!important;
+            // touch-action: pan-y;
+            // width: 600px!important;
+        }
+
+        &__item{
+            width: 500px;
+        }
+         .carousel-cell {
+             width: 100%; /* full width */
+             height: 200px;
+        //     background: #222;
+        //     /* center images in cells with flexbox */
+             display: flex;
+             align-items: center;
+             justify-content: center;
+           }
+        .flickity-page-dots{
+            top: 200px!important;
+        }
+    }
+}
